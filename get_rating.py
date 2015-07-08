@@ -1,10 +1,12 @@
 import os
-from flask import Flask
-from flask import request
 import urllib2
 import json
 import cgi 
 import requests
+
+from flask import Flask
+from flask import request
+
 app = Flask(__name__)
 
 @app.route('/')
